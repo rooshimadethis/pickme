@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".MainActivity">
+    tools:context=".StartActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -55,6 +55,7 @@
             android:layout_marginEnd="8dp"
             android:background="@drawable/dark_blue_rounded_button"
             android:fontFamily="@font/muli"
+            android:onClick="onLoginClicked"
             android:text="@string/log_in"
             android:textColor="@color/colorCream" />
 
@@ -68,6 +69,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/light_blue_rounded_button"
             android:fontFamily="@font/muli"
+            android:onClick="onSignUpClicked"
             android:text="@string/sign_up"
             android:textColor="@color/colorCream" />
 
@@ -81,4 +83,4 @@
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="-7dp" />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
