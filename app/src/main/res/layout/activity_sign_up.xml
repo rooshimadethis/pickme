@@ -11,7 +11,18 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="87dp" />
+        android:fontFamily="@font/muli_extralight"
+        android:text="@string/SU_who_are_you"
+        android:textColor="@color/colorCream"
+        android:textSize="55sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="294dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

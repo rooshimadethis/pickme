@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">Pickme</string>
-    <string name="log_in">Log in!</string>
-    <string name="sign_up">Sign up!</string>
+    <!-- Start screen strings -->
+    <string name="SS_app_name">Pickme</string>
+    <string name="SS_log_in">Log in!</string>
+    <string name="SS_sign_up">Sign up!</string>
+
+    <!-- Sign Up screen strings -->
+    <string name="SU_who_are_you">Who are you?</string>
+
 </resources>
