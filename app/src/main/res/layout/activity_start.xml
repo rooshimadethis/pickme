@@ -49,7 +49,7 @@
         <Button
             android:id="@+id/loginButton"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="140dp"
             android:layout_marginEnd="8dp"
@@ -61,26 +61,19 @@
 
         <Button
             android:id="@+id/signUpButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/light_blue_rounded_button"
+            android:background="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:fontFamily="@font/muli"
             android:onClick="onSignUpClicked"
             android:text="@string/SS_sign_up"
             android:textColor="@color/colorCream" />
 
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@color/colorPrimary"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="-7dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

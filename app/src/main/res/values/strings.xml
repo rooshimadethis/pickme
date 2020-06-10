@@ -1,4 +1,10 @@
 <resources>
+
+    <!-- General -->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
     <!-- Start screen strings -->
     <string name="SS_app_name">Pickme</string>
     <string name="SS_log_in">Log in!</string>
@@ -6,5 +12,7 @@
 
     <!-- Sign Up screen strings -->
     <string name="SU_who_are_you">Who are you?</string>
+
+    <string name="blob_content_description">Emoji face with no mouth</string>
 
 </resources>
